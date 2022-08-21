@@ -35,6 +35,25 @@
 			<Item Name="Open DQMH Request Message Diagram.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Open DQMH Request Message Diagram.vi"/>
 			<Item Name="Set Visible Case.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Set Visible Case.vi"/>
 		</Item>
+		<Item Name="QD" Type="Folder">
+			<Item Name="Open DQMH Request Message Diagram QD" Type="Folder">
+				<Item Name="Call DQMH Get Event Info VI QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Call DQMH Get Event Info VI QD.vi"/>
+				<Item Name="Call DQMH Is Broadcast VI QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Call DQMH Is Broadcast VI QD.vi"/>
+				<Item Name="Call DQMH Is Request VI QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Call DQMH Is Request VI QD.vi"/>
+				<Item Name="Call DQMH Request and Wait for Reply VI QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Call DQMH Request and Wait for Reply VI QD.vi"/>
+				<Item Name="Execute Open DQMH Request Message Diagram QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Execute Open DQMH Request Message Diagram QD.vi"/>
+				<Item Name="Find EHL Event Structure QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Find EHL Event Structure QD.vi"/>
+				<Item Name="Find Message Text QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Find Message Text QD.vi"/>
+				<Item Name="Find MHL Case Structure QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Find MHL Case Structure QD.vi"/>
+				<Item Name="Get DQMH Main VI QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Get DQMH Main VI QD.vi"/>
+				<Item Name="Get Event Selector Name QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Get Event Selector Name QD.vi"/>
+				<Item Name="Get Owning Library QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Get Owning Library QD.vi"/>
+				<Item Name="Get SubVI Ref QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Get SubVI Ref QD.vi"/>
+				<Item Name="Is DQMH Request QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Is DQMH Request QD.vi"/>
+				<Item Name="Set Visible Case QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH Request Message Diagram QD/Set Visible Case QD.vi"/>
+			</Item>
+			<Item Name="Open DQMH MHL Request Case QD.vi" Type="VI" URL="../resource/dialog/QuickDrop/plugins/Open DQMH MHL Request Case QD.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -78,6 +97,8 @@
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
+				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Release Waiting Procs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Release Waiting Procs.vi"/>
