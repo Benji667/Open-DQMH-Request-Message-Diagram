@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-21 16:33:47" Modified_Date="2022-08-21 17:24:01" Creator="Neo" Comments="" ID="8e07d7d5e533b68caf3806559eb2af7e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-08-21 16:33:47" Modified_Date="2022-08-21 17:26:35" Creator="Neo" Comments="" ID="0963b00a556a7ff555450a0373243da5">
   <Library_General_Settings>
     <Package_File_Name>BenjaminR_lib_Open_DQMH_Request_Handling_Case</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
