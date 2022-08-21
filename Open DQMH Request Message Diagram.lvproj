@@ -12,28 +12,28 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Modules" Type="Folder">
+			<Item Name="Testers" Type="Folder">
+				<Item Name="Test SingletonModule API.vi" Type="VI" URL="../DQMH Modules/SingletonModule/Test SingletonModule API.vi"/>
+			</Item>
 			<Item Name="SingletonModule.lvlib" Type="Library" URL="../DQMH Modules/SingletonModule/SingletonModule.lvlib"/>
 		</Item>
-		<Item Name="Open DQMH MHL Request Case" Type="Folder">
-			<Item Name="Call DQMH Get Event Info VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Call DQMH Get Event Info VI.vi"/>
-			<Item Name="Call DQMH Is Broadcast VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Call DQMH Is Broadcast VI.vi"/>
-			<Item Name="Call DQMH Is Request VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Call DQMH Is Request VI.vi"/>
-			<Item Name="Call DQMH Request and Wait for Reply VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Call DQMH Request and Wait for Reply VI.vi"/>
-			<Item Name="Execute Open DQMH MHL Request Case.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Execute Open DQMH MHL Request Case.vi"/>
-			<Item Name="Find EHL Event Structure.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Find EHL Event Structure.vi"/>
-			<Item Name="Find Message Text.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Find Message Text.vi"/>
-			<Item Name="Find MHL Case Structure.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Find MHL Case Structure.vi"/>
-			<Item Name="Get DQMH Main VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Get DQMH Main VI.vi"/>
-			<Item Name="Get Event Selector Name.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Get Event Selector Name.vi"/>
-			<Item Name="Get Owning Library.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Get Owning Library.vi"/>
-			<Item Name="Get SubVI Ref.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Get SubVI Ref.vi"/>
-			<Item Name="Is DQMH Request.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Is DQMH Request.vi"/>
-			<Item Name="Open DQMH MHL Request Case.ctl" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Open DQMH MHL Request Case.ctl"/>
-			<Item Name="Open DQMH MHL Request Case.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Open DQMH MHL Request Case.vi"/>
-			<Item Name="Set Visible Case.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Set Visible Case.vi"/>
-		</Item>
-		<Item Name="Testers" Type="Folder">
-			<Item Name="Test SingletonModule API.vi" Type="VI" URL="../DQMH Modules/SingletonModule/Test SingletonModule API.vi"/>
+		<Item Name="Open DQMH Request Message Diagram" Type="Folder">
+			<Item Name="Call DQMH Get Event Info VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Call DQMH Get Event Info VI.vi"/>
+			<Item Name="Call DQMH Is Broadcast VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Call DQMH Is Broadcast VI.vi"/>
+			<Item Name="Call DQMH Is Request VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Call DQMH Is Request VI.vi"/>
+			<Item Name="Call DQMH Request and Wait for Reply VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Call DQMH Request and Wait for Reply VI.vi"/>
+			<Item Name="Execute Open DQMH Request Message Diagram.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Execute Open DQMH Request Message Diagram.vi"/>
+			<Item Name="Find EHL Event Structure.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Find EHL Event Structure.vi"/>
+			<Item Name="Find Message Text.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Find Message Text.vi"/>
+			<Item Name="Find MHL Case Structure.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Find MHL Case Structure.vi"/>
+			<Item Name="Get DQMH Main VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Get DQMH Main VI.vi"/>
+			<Item Name="Get Event Selector Name.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Get Event Selector Name.vi"/>
+			<Item Name="Get Owning Library.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Get Owning Library.vi"/>
+			<Item Name="Get SubVI Ref.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Get SubVI Ref.vi"/>
+			<Item Name="Is DQMH Request.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Is DQMH Request.vi"/>
+			<Item Name="Open DQMH Request Message Diagram.ctl" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Open DQMH Request Message Diagram.ctl"/>
+			<Item Name="Open DQMH Request Message Diagram.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Open DQMH Request Message Diagram.vi"/>
+			<Item Name="Set Visible Case.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH Request Message Diagram.llb/Set Visible Case.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
