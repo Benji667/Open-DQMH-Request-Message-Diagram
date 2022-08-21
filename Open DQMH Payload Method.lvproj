@@ -16,6 +16,7 @@
 		</Item>
 		<Item Name="Open DQMH MHL Request Case" Type="Folder">
 			<Item Name="Call DQMH Get Event Info VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Call DQMH Get Event Info VI.vi"/>
+			<Item Name="Call DQMH Is Broadcast VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Call DQMH Is Broadcast VI.vi"/>
 			<Item Name="Call DQMH Is Request VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Call DQMH Is Request VI.vi"/>
 			<Item Name="Call DQMH Request and Wait for Reply VI.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Call DQMH Request and Wait for Reply VI.vi"/>
 			<Item Name="Execute Open DQMH MHL Request Case.vi" Type="VI" URL="../resource/plugins/PopupMenus/edit time panel and diagram/Open DQMH MHL Request Case.llb/Execute Open DQMH MHL Request Case.vi"/>
