@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Open DQMH Request Message Diagram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	
+    
+	<link href="./assets/styles.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+
+  </head>
+  <body>
+     
+    <h1>Open DQMH Request Message Diagram</h1>
+
+	<p>Adds a <em>Right-Click Shortcut</em> and a <em>Quick Drop Ctrl-Key Shortcut</em> (CTRL-K by default) to DQMH Module <strong>Request</strong> or <strong>Request and Wait for Reply</strong> or <strong>Round Trip Broadcast</strong> methods on the block diagram allowing the developer to quickly open the Message Diagram of the Message Handling Loop within the DQMH Module Main VI.</p>
+
+	<p>When writing code using <strong>DQMH Framework</strong>, you communicate with actors (DQMH Modules) by sending asynchronous or synchronous messages. Each DQMH Module has a set of methods, Public API VIs which are what you see on the block diagram, which collect the inputs for the message and transport it using LabVIEW user events. The actual logic that executes when the message is received resides in a Message Handling Loop (MHL) of the DQMH Module Main VI, which reads the message causes the corresponding subdiagram of the Case structure to execute. This subdiagram is called a “message diagram” because it corresponds to a message.</p>
+
+	<p>During the development process it can be convinient for developpers to quickly access to the “message diagram” from the public method they use somewhere else. This LabVIEW IDE plugin retrievs selected subVIs on a diagram and if they are a part a the Public API VI of a DQMH opens the Main VI block diagram with the “message diagram” handling the message visible. Developpers have direct access to the business logic of the Request.</p>
+	
+<hr/>
+
+	<footer class="footer">
+      <nav class="footer-navigation">
+        <i class="icon-square-footer"></i>
+        <ul class="footer-navigation-list">
+			<li class="footer-navigation-item"><a href="https://benji667.github.io/Open-DQMH-Request-Message-Diagram/">Home</a></li>
+			<li class="footer-navigation-item"><a href="https://www.vipm.io/package/benjaminr_lib_open_dqmh_request_handling_case/" target="_blank">Download the package file</a></li>
+			<li class="footer-navigation-item"><a href="https://benjaminrlabviewextensions.github.io/LVMenu_Demo/" target="_blank">How to create a Shortcut Menu for LabVIEW IDE</a></li>
+        </ul>
+        <p class="copyright" style="text-align: center">© 2022 BenjaminR, maintained by <a href="https://github.com/Benji667">BenjaminR</a>.</p>
+      </nav>
+	</footer>
+	
+  </body>
+</html>
