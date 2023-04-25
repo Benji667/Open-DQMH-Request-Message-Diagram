@@ -6,6 +6,8 @@
 [![Zero-Clause BSD][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+This code has been moved to: https://github.com/NeosoftTechnologiesInc/Open-DQMH-Request-Message-Diagram
+
 # Open DQMH Request Message Diagram
 
 <!-- TABLE OF CONTENTS -->
